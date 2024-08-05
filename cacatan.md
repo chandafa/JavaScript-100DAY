@@ -1,6 +1,6 @@
 # JavaScript - 100 Day
 
-## Day 1
+## belajar day #1 mod (1)
 
 # Lingkungan Javascript :
 
@@ -61,7 +61,7 @@
 
 ### Operator pada javascript
 
-    Note : "operator dalam javascript adalah sebuah simbol yang digunakan untuk melakukan operasi"
+    Note : "operator dalam javascript adalah sebuah syntax yang digunakan untuk melakukan operasi"
 
     # Operator
         - aritmatika -
@@ -92,7 +92,7 @@
 
 
             ## - operator aritmatika
-                simbol :
+                syntax :
                             + penjumlahan
                             - pengurangan
                             * perkalian
@@ -104,7 +104,7 @@
                 urutan nya : () -> * -> / -> + -> -
 
             ## - operator penugasan/assignment
-                simbol :
+                syntax :
                         =
                         += sama seperti : x=x+y
                         -= sama seperti : x=x-y
@@ -116,7 +116,7 @@
 
 
             ## - operator perbadingan/comparison
-                simbol :
+                syntax :
                     == sama dengan
                     != tidak sama dengan
                     === strict sama dengan
@@ -132,7 +132,7 @@
                     - false : salah
 
             ## - operator logika / logical
-                simbol :
+                syntax :
                     &&  : and
                     ||  : or
                     !   : not
@@ -141,3 +141,88 @@
                     "asal salah satu nya benar, pasti hasil nya true"
                 contoh :
                     (x % 2 == 0) && (x < 10)
+
+## belajar day #2 mod (1)
+
+            ## - operator string
+                syntax : +
+
+                note :
+                * memiliki 2 fungsi yaitu
+                - jika operand nya adalah angka maka dia akan menjadi operator artimatika,
+                - jika operand nya adalah string maka dia akan menjadi operator penggabung string/tulisan
+
+                contoh :
+                jika 10 + "10" hasil nya "1010"
+                sedangkan 10 + 10 hasil nya 20
+
+                10+10"10" -> "2010"
+                tapi
+                "10"+10+10 -> "101010"
+
+            ## - operator typeof
+                syntax : typeof(operand)
+
+                contoh :
+                    > typeof(10)    --> input
+                    < "number"      --> mengembalikan
+
+                note :
+                    digunakan untuk mengetahui tipe data apa dari suatu nilai
+
+            ## - operator kondisional
+                syntax : (kondisi) ? benar : salah
+
+                contoh:
+                    (x % 2 == 0) ? "genap" : "ganjil"
+                    jika kondisi nya bernilai true maka yang akan di kembalikan adalah tulisan genap dan jika bernilai false maka akan sebalik nya.
+
+        # Tipe data pada javascript
+            ## Tipe data (String)
+
+                note : "tipe data string dalam javascript digunakan untuk merepresentasikan data tekstual/plaintext"
+
+                syntax : "" atau ''
+
+                contoh :
+                "candra" atau 'kirana'
+
+                    * escape character
+                        note : jika ingin menulis
+                        jum'at maka gunakan jum\'at
+                        atau
+                        "\"gerakan pungut sampah\" pada hari jum'at"
+
+                        escape charcater    |     hasil
+                        ------------------------------------------
+                        \0                  |     karakter NULL
+                        \'                  |     '
+                        \"                  |     "
+                        \\                  |     \
+                        \n                  |     new line/baris baru
+                        \t                  |     tab
+                        \b                  |     backspace
+                        \uXXXX              |     unicode
+
+
+                    * unicode
+                        unicode                 |     hasil
+                        ------------------------------------------
+                        \u00A9                  |     C
+                        \u00AE                  |     R
+                        \u00B1                  |     +
+                        \u00B5                  |     u
+                        \u2122                  |     TM
+                        ...                     |     ...
+
+
+                    * Concatenation konkatenasi
+                        note : bisa membandingkan 2 buah string
+
+                        contoh : "Candra Kirana"  == "candra kirana"
+                        ->                    false
+
+
+                    * .length (menghitung panjang string)
+
+                        contoh : "Candra Kirana".length   //13
