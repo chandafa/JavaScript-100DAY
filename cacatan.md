@@ -226,3 +226,67 @@
                     * .length (menghitung panjang string)
 
                         contoh : "Candra Kirana".length   //13
+
+## belajar day #3 mod (1)
+
+     # Tipe data pada javascript
+            ## Tipe data (Boolean)
+
+            note : "boolean adalah sebuah tipe data yang digunakan untuk merepresentasikan logika true atau false"
+
+            contoh :
+                var x = 10;
+                arti nya variable x menyimpan nilai 10 maka hasil nya true
+
+                jika
+
+                "Candra" == "candra"
+                maka akan menghasilkan false
+
+                Boolean(10 < 20)
+                Boolean(0)
+                Boolean(-1)
+                maka ketiga tersebut akan menghasilkan true, karna perbandingan nya benar
+
+
+                truthy/true     |       falsy/false
+                ---------------------------------
+                true            |       false
+                non-zero number |       0
+                "string"        |       ""
+                object          |       undefined
+                arrays          |       null
+                functions       |       NaN
+
+                note :
+                    "undefined adalah sebuah tipe yang dihasilkan ketika kita mendeklarasikan sebuah variable tapi kita blum mengisikan nilai nya"
+                    "sedangkan null adalah nilai kosong yang bisa kita berikan pada suatu variable, dan bisa menulis var x=null"
+
+
+            ## Variable
+
+                note : "variable adalah sebuah tempat/wadah yang memiliki nama, yang digunakan untuk menyimpna nilai"
+                "harus paham dulu [DEKLARASI, INISIALISASI, ASSIGNMENT]"
+
+                    * Deklarasi yaitu mendaftarkan variable ke dalam lingkup yang sesuai
+                    * Inisialisasi yaitu menyediakan memori untuk variable
+                    * Assignment yaitu menetapkan nilai yang spesifik ke dalam variable
+
+                    contoh :
+                        var x; //deklarasi & inisialisasi
+                        x = 20; // assignment
+
+                    syntax deklarasi:
+                    - var
+                    - let
+                    - const
+
+                    format :
+                     var 1gaboleh; X
+                     var boleh1; ✔
+                     atau
+                     var ini_juga_boleh; ✔
+
+                    jenis penulisan :
+                    internal    : di satu file yang sama
+                    eksternal   : di file yang berbeda
